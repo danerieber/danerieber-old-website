@@ -1,0 +1,8 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/danerieber/personal-website.git",
+  "author": "Dane Rieber <danerieber@gmail.com>",
+  "license": "MIT"
+}

@@ -1,8 +1,16 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "html/index.html",
   "repository": "https://github.com/danerieber/personal-website.git",
   "author": "Dane Rieber <danerieber@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.1.3",
+    "fullpage.js": "^3.0.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "typed.js": "^2.0.9"
+  }
 }

@@ -10358,20 +10358,24 @@ h1 {
   #fp-nav {
     display: none;
   }
+  /* line 91, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+  .portrait {
+    max-width: 150px;
+  }
 }
 
-/* line 93, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 96, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 h2 {
   color: white;
   font-size: 40px;
 }
 
-/* line 98, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 101, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .project-circle {
   color: white;
 }
 
-/* line 100, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 103, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .project-circle button {
   width: 200px;
   height: 200px;
@@ -10384,34 +10388,41 @@ h2 {
   -o-transition: opacity 0.5s;
 }
 
-/* line 113, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 116, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .project-circle button:hover {
   opacity: 1;
   cursor: pointer;
 }
 
 @media (max-width: 767.98px) {
-  /* line 121, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+  /* line 124, C:/Users/daner/Documents/personal-website/scss/styles.scss */
   .project-circle button {
     width: 150px;
     height: 150px;
   }
-  /* line 125, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+  /* line 128, C:/Users/daner/Documents/personal-website/scss/styles.scss */
   .project-circle h3 {
     font-size: 25px;
   }
-  /* line 129, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+  /* line 132, C:/Users/daner/Documents/personal-website/scss/styles.scss */
   h2 {
     font-size: 30px;
   }
 }
 
-/* line 134, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+@media (max-width: 575.98px) {
+  /* line 138, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+  .project-circle, .project-circle h3, .project-cirlce .row {
+    margin: 0px !important;
+  }
+}
+
+/* line 143, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .projects-col {
   max-width: 300px !important;
 }
 
-/* line 138, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 147, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .hr-white {
   display: block;
   height: 1px;
@@ -10421,12 +10432,12 @@ h2 {
   padding: 0;
 }
 
-/* line 147, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 156, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .hr-sm {
   max-width: 400px;
 }
 
-/* line 152, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 161, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .tools-row .list-group-item {
   color: white;
   border: 1px solid white;
@@ -10436,27 +10447,27 @@ h2 {
   transition: background-color 0.2s;
 }
 
-/* line 160, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 169, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .tools-row .list-group-item:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 163, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 172, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .tools-row a:hover {
   text-decoration: none;
 }
 
-/* line 166, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 175, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .tools-row .col-6 {
   max-width: 400px;
 }
 
-/* line 171, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 180, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .github-link {
   color: white;
 }
 
-/* line 175, C:/Users/daner/Documents/personal-website/scss/styles.scss */
+/* line 184, C:/Users/daner/Documents/personal-website/scss/styles.scss */
 .github-link:hover {
   color: white;
 }

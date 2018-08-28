@@ -88,6 +88,9 @@ h1 {
     #fp-nav {
         display: none;
     }
+    .portrait {
+        max-width: 150px;
+    }
 }
 
 h2 {
@@ -128,6 +131,12 @@ h2 {
     }
     h2 {
         font-size: 30px;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .project-circle, .project-circle h3, .project-cirlce .row {
+        margin: 0px !important;
     }
 }
 

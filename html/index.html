@@ -9,8 +9,7 @@
 
   <link rel="stylesheet" href="../node_modules/fullpage.js/dist/fullpage.min.css">
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
 
@@ -19,13 +18,14 @@
   <title>Dane Rieber</title>
 </head>
 
-<body class="animated fadeIn">
+<body class="wow fadeIn">
   <div id="fullpage">
     <div class="section" data-anchor="section1">
       <div id="nav-row">
-        <nav class="navbar navbar-expand-lg animated fadeInDown">
+        <nav class="navbar navbar-expand-lg wow fadeInDown">
           <a class="navbar-brand" href="#">Dane Rieber</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
             <i class="material-icons">menu</i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="#section2">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#section3">Projects</a>
               </li>
             </ul>
           </div>
@@ -49,22 +49,54 @@
             </div>
             <span id="typed"></span>
           </div>
-          <a href="#section2"><i id="next-page-chevron" class="material-icons animated fadeInUp">expand_more</i></a>
+          <a href="#section2">
+            <i id="next-page-chevron" class="material-icons wow fadeInUp">expand_more</i>
+          </a>
         </div>
       </div>
     </div>
     <div class="section" data-anchor="section2">
       <div class="container">
-        <div class="row align-items-center full-height">
+        <div class="row">
           <div class="col-md-4">
             <div class="text-center mb-3">
-                <img src="../img/me.jpg" class="img-fluid rounded-circle portrait">
+              <img src="../img/me.jpg" class="img-fluid rounded-circle portrait wow zoomIn">
             </div>
           </div>
           <div class="col-md-8">
-            <p class="about-me-text mt-3">
-              Hi, I'm Dane! I'm a senior at Legend High School in Parker, CO. Programming is my forte, but I've recently developed a strong interest in music as well. I love logic and reasoning, and I especially love being able to tap into my creative side, too!
+            <p class="about-me-text mt-3 wow fadeIn">
+              Hi, I'm Dane! I'm a senior at Legend High School in Parker, CO. Programming is my forte, but I've recently developed a strong
+              interest in music as well. I love logic and reasoning, and I especially love being able to tap into my creative
+              side, too!
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" data-anchor="section3">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="wow fadeInDown">Projects</h2>
+            <hr class="hr-white hr-sm mx-auto wow zoomIn">
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-sm-6 projects-col">
+            <div class="project-circle text-center">
+              <button type="button" class="wow zoomIn" data-toggle="modal" data-target="#modal1">
+                <img src="../svg/test.svg">
+              </button>
+              <h3 class="mt-4 mb-4 wow fadeInUp">Music</h3>
+            </div>
+          </div>
+          <div class="col-sm-6 projects-col">
+            <div class="project-circle text-center">
+              <button type="button" class="wow zoomIn" data-toggle="modal" data-target="#modal1">
+                <img src="../svg/test2.svg">
+              </button>
+              <h3 class="mt-4 mb-4 wow fadeInUp">Code</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -76,8 +108,11 @@
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <script src="../node_modules/fullpage.js/dist/fullpage.min.js"></script>
-  
+
   <script src="../node_modules/typed.js/lib/typed.min.js"></script>
+
+  <script src="../node_modules/wow.js/dist/wow.min.js"></script>
+
   <script src="../js/index.js"></script>
 </body>
 

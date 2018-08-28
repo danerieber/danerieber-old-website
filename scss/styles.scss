@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 html, body {
     height: 100%;
+    overflow: hidden !important;
 }
 
 body {
@@ -58,7 +60,18 @@ h1 {
 .about-me-text {
     color: white;
     font-size: 25px;
-    
+}
+
+@include media-breakpoint-down(sm) {
+    .about-me-text {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .name-box span {
+        font-size: 20px;
+    }
 }
 
 .portrait {
@@ -69,4 +82,62 @@ h1 {
 
 #fp-nav ul li a span {
     background-color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.project-circle {
+    color: white;
+    button {
+        width: 200px;
+        height: 200px;
+        border: none;
+        // border-radius: 100px;
+        background: none;
+        opacity: 0.8;
+        transition: opacity 0.5s;
+        -webkit-transition: opacity 0.5s;
+        -moz-transition: opacity 0.5s;
+        -o-transition: opacity 0.5s;
+        // box-shadow: 0px 0px 10px #222;
+    }
+    button:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .project-circle {
+        button {
+            width: 150px;
+            height: 150px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+.projects-col {
+    max-width: 300px !important;
+}
+
+.hr-white {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.hr-sm {
+    max-width: 400px;
 }

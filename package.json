@@ -11,6 +11,7 @@
     "fullpage.js": "^3.0.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.4",
-    "typed.js": "^2.0.9"
+    "typed.js": "^2.0.9",
+    "wow.js": "^1.2.2"
   }
 }

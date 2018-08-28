@@ -81,7 +81,13 @@ h1 {
 }
 
 #fp-nav ul li a span {
-    background-color: white;
+    background-color: rgba($color: #fff, $alpha: 0.7);
+}
+
+@include media-breakpoint-down(xs) {
+    #fp-nav {
+        display: none;
+    }
 }
 
 h2 {
@@ -140,4 +146,32 @@ h2 {
 
 .hr-sm {
     max-width: 400px;
+}
+
+.tools-row {
+    .list-group-item {
+        color: white;
+        border: 1px solid white;
+        text-align: center;
+        background-color: rgba($color: #fff, $alpha: 0.1);
+        margin-top: 5px;
+        transition: background-color 0.2s;
+    }
+    .list-group-item:hover {
+        background-color: rgba($color: #fff, $alpha: 0.2);
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .col-6 {
+        max-width: 400px;
+    }
+}
+
+.github-link {
+    color: white;
+}
+
+.github-link:hover {
+    color: white;
 }

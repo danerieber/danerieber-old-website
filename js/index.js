@@ -1,7 +1,7 @@
 new fullpage('#fullpage', {
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     navigation: true,
-    navigationTooltips: ['Home', 'About', 'Projects'],
+    navigationTooltips: ['Home', 'About', 'Projects', 'Tools'],
     scrollBar: true
 });
 

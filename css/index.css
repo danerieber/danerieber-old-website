@@ -10250,42 +10250,42 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-/* line 4, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 4, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 html, body {
   height: 100%;
 }
 
-/* line 8, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 8, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 body {
   background: url(../svg/trianglify.svg) no-repeat center center fixed;
   background-size: cover;
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 14, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 14, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 h1 {
   font-size: 70px;
 }
 
-/* line 18, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 18, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .full-height {
   min-height: 100%;
   height: 100%;
 }
 
-/* line 23, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 23, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .name-box {
   height: 300px;
   color: white;
   padding: 20px;
 }
 
-/* line 27, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 27, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .name-box span {
   font-size: 25px;
 }
 
-/* line 32, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 32, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 #next-page-chevron {
   color: white;
   font-size: 70px;
@@ -10295,7 +10295,7 @@ h1 {
   margin-left: -35px;
 }
 
-/* line 41, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 41, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 #nav-row {
   position: absolute;
   top: 0px;
@@ -10304,23 +10304,23 @@ h1 {
   color: white;
 }
 
-/* line 47, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 47, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 #nav-row .navbar-brand {
   font-size: 25px;
 }
 
-/* line 50, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 50, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 #nav-row a {
   color: white;
 }
 
-/* line 53, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 53, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 #nav-row i {
   color: white;
 }
 
 @media (max-width: 991.98px) {
-  /* line 61, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 61, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .navbar-collapse {
     position: relative;
     background-color: white;
@@ -10328,67 +10328,67 @@ h1 {
     z-index: 1000;
     padding: 10px;
   }
-  /* line 67, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 67, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .navbar-collapse a {
     color: black !important;
   }
 }
 
-/* line 73, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 73, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .about-me-text {
   color: white;
   font-size: 25px;
 }
 
 @media (max-width: 767.98px) {
-  /* line 79, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 79, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .about-me-text {
     font-size: 20px;
   }
-  /* line 82, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 82, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   h1 {
     font-size: 50px;
   }
-  /* line 85, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 85, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .name-box span {
     font-size: 20px;
   }
 }
 
-/* line 90, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 90, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .portrait {
   max-width: 200px;
   border: 3px solid white;
 }
 
-/* line 95, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 95, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 #fp-nav ul li a span {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 575.98px) {
-  /* line 100, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 100, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   #fp-nav {
     display: none;
   }
-  /* line 103, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 103, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .portrait {
     max-width: 150px;
   }
 }
 
-/* line 108, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 108, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 h2 {
   color: white;
   font-size: 40px;
 }
 
-/* line 113, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 113, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .project-circle {
   color: white;
 }
 
-/* line 115, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 115, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .project-circle button {
   width: 200px;
   height: 200px;
@@ -10401,41 +10401,41 @@ h2 {
   -o-transition: opacity 0.5s;
 }
 
-/* line 128, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 128, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .project-circle button:hover {
   opacity: 1;
   cursor: pointer;
 }
 
 @media (max-width: 767.98px) {
-  /* line 136, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 136, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .project-circle button {
     width: 150px;
     height: 150px;
   }
-  /* line 140, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 140, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .project-circle h3 {
     font-size: 25px;
   }
-  /* line 144, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 144, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   h2 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 575.98px) {
-  /* line 150, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+  /* line 150, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
   .project-circle, .project-circle h3, .project-cirlce .row {
     margin: 0px !important;
   }
 }
 
-/* line 155, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 155, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .projects-col {
   max-width: 300px !important;
 }
 
-/* line 159, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 159, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .hr-white {
   display: block;
   height: 1px;
@@ -10445,12 +10445,12 @@ h2 {
   padding: 0;
 }
 
-/* line 168, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 168, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .hr-sm {
   max-width: 400px;
 }
 
-/* line 173, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 173, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .tools-row .list-group-item {
   color: white;
   border: 1px solid white;
@@ -10460,34 +10460,34 @@ h2 {
   transition: background-color 0.2s;
 }
 
-/* line 181, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 181, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .tools-row .list-group-item:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 184, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 184, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .tools-row a:hover {
   text-decoration: none;
 }
 
-/* line 187, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 187, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .tools-row .col-6 {
   max-width: 400px;
 }
 
-/* line 192, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 192, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .github-link {
   color: white;
 }
 
-/* line 196, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 196, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .github-link:hover {
   color: white;
 }
 
-/* line 200, C:/Users/daner/Documents/danerieber.github.io/scss/styles.scss */
+/* line 200, C:/Users/daner/Documents/danerieber.github.io/scss/index.scss */
 .project-card {
   max-width: 400px;
 }
 
-/*# sourceMappingURL=../css/styles.map */
+/*# sourceMappingURL=../css/index.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/music-dark.css",
+	"sources": [
+		"../scss/music-dark.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n    color: white !important;\r\n    background-color: #212121 !important;\r\n}\r\n\r\nhr {\r\n    border: 1px solid white !important;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,gBAAiB;EACxB,gBAAgB,EAAE,kBAAmB;CACxC;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,0BAA2B;CACtC",
+	"names": []
+}

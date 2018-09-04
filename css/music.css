@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo");
+/* line 3, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+body {
+  font-family: 'Arvo', sans-serif;
+  color: black;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+/* line 10, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+.container-main {
+  max-width: 800px;
+  padding: 30px;
+}
+
+/* line 15, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+h1 {
+  font-size: 80px;
+}
+
+/* line 19, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+hr {
+  border: 1px solid black;
+}
+
+/* line 23, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+h5 {
+  font-weight: bold;
+}
+
+/* line 27, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+p {
+  font-weight: lighter;
+}
+
+/* line 29, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+p i {
+  font-size: 18px !important;
+}
+
+/* line 34, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+.album-art {
+  max-width: 200px;
+  box-shadow: 0px 0px 5px black;
+}
+
+/* line 39, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+.d-logo {
+  max-width: 55px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 45, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+.theme-button {
+  font-size: 11px;
+  padding: 8px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=../css/music.map */

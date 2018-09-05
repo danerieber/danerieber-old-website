@@ -4,7 +4,10 @@ var canChangeTheme = true;
 function initStorageValue() {
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem('theme') !== null) {
-            darkTheme = JSON.parse(localStorage.getItem('theme'));
+            if (JSON.parse(localStorage.getItem('theme'))) {
+                localStorage.setItem('theme', false);
+                toggleTheme();
+            }
         } else {
             localStorage.setItem('theme', darkTheme);
         }

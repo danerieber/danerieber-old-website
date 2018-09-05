@@ -5,8 +5,8 @@
 		"../scss/music-dark.scss"
 	],
 	"sourcesContent": [
-		"body {\r\n    color: white !important;\r\n    background-color: #212121 !important;\r\n}\r\n\r\nhr {\r\n    border: 1px solid white !important;\r\n}"
+		"body {\r\n    color: white !important;\r\n    background-color: #212121 !important;\r\n}\r\n\r\nhr {\r\n    border: 1px solid white !important;\r\n}\r\n\r\n.main-page-link {\r\n    color: white !important;\r\n}"
 	],
-	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,gBAAiB;EACxB,gBAAgB,EAAE,kBAAmB;CACxC;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,0BAA2B;CACtC",
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,gBAAiB;EACxB,gBAAgB,EAAE,kBAAmB;CACxC;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,0BAA2B;CACtC;;;AAED,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,gBAAiB;CAC3B",
 	"names": []
 }

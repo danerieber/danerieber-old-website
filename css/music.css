@@ -59,4 +59,10 @@ p i {
   border-radius: 15px;
 }
 
+/* line 52, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+.main-page-link {
+  color: black;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=../css/music.map */

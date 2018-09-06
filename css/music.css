@@ -46,12 +46,11 @@ p i {
 
 /* line 39, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
 .d-logo {
-  max-width: 55px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  max-width: 80px;
+  margin-top: 5px;
 }
 
-/* line 45, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+/* line 44, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
 .theme-button {
   font-size: 11px;
   padding: 8px;
@@ -59,7 +58,7 @@ p i {
   border-radius: 15px;
 }
 
-/* line 52, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
+/* line 51, C:/Users/daner/Documents/danerieber.github.io/scss/music.scss */
 .main-page-link {
   color: black;
   text-decoration: underline;
